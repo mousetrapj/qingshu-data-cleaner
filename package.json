@@ -1,0 +1,24 @@
+{
+  "name": "qingshu-data-cleaner",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-local spreadsheet cleaning with editable presets, bilingual interfaces, and reviewable rule drafts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mousetrapj/qingshu-data-cleaner.git"
+  },
+  "homepage": "https://github.com/mousetrapj/qingshu-data-cleaner#readme",
+  "bugs": {
+    "url": "https://github.com/mousetrapj/qingshu-data-cleaner/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/test.mjs"
+  }
+}
