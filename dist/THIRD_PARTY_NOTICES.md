@@ -13,10 +13,18 @@ When redistributing or updating these assets, retain the applicable license text
 
 ## Scope of the JSZip browser bundle
 
-The checked-in `jszip.min.js` is byte-for-byte identical to the upstream JSZip 3.10.1 minified distribution. Its SHA-256 is:
+The checked-in `jszip.min.js` contains the upstream JSZip 3.10.1 minified distribution with one added final LF (newline). The JavaScript code is otherwise unchanged.
+
+Upstream distribution SHA-256 (before the added LF):
 
 ```text
 acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e
+```
+
+Checked-in asset SHA-256 (including the added LF):
+
+```text
+d14e71a95ef3290dec66a9cfdd8a37c2dd624f6f2b594c4512f607d4a56e19fc
 ```
 
 Inspection of its 54-entry Browserify module table, cross-checked against the matching unminified distribution and package sources, identifies these bundled implementations:
